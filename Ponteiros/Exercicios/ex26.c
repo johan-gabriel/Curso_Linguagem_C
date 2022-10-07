@@ -48,7 +48,7 @@ int raizes(float A, float B, float C, float* X1, float* X2){
         *X2 = ((invert*B) - sqrt(invert*delta))/(2*A);
     }
 
-    if (comparador = 0)
+    if (comparador == 0)
     {   printf("Foi delta = 0\n");
         *X1 = ((invert*B) + sqrt(delta))/(2*A);
         *X2 = *X1 * invert;
